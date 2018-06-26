@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <body background="http://lifebackstage.com/wp-content/uploads/2016/06/la-et-ms-kanye-west-famous-forum-20160622-snap.jpg">
+        <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <div class='jumbotron'>
+            <div class='container'>
+                <h1>Modern Rappers</h1>
+                <h2>Guess the name of a currently relevant hip hop artist!</h2>
+                <small>Click any letter to begin...</small>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+
+                <div class="card card-default">
+                    <div class="card-heading">
+                        <h3 class="card-title">
+                            <strong>Word to Guess</strong>
+                        </h3>
+                    </div>
+
+                    <div class="card-body">
+
+                        <h3 id="word-blanks">_ _ _ _ _ _ _ _ _ </h3>
+
+                    </div>
+
+                </div>
+
+                <div class="card card-default">
+                    <div class="card-body">
+
+                        <strong>Wrong Guesses: </strong>
+                        <span id="wrong-guesses"></span>
+
+                    </div>
+                </div>
+
+                <div class="card card-default">
+                    <div class="card-body">
+
+                        <strong>Guesses Left: </strong>
+                        <span id="guesses-left">9</span>
+
+                    </div>
+
+                </div>
+
+                <div class="card card-default">
+
+                    <div class="card-body">
+
+                        <strong>Wins: </strong>
+                        <span id="win-counter">0</span>
+
+                    </div>
+
+                </div>
+
+                <div class="card card-default">
+                    <div class="card-body">
+
+                        <strong>Losses: </strong>
+                        <span id="loss-counter">0</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="assets/js/game.js"></script>
+
+</body>
+
+</html>
