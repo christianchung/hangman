@@ -1,3 +1,8 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 .jumbotron{
     text-align: center;
     font-family: "Amatic SC", cursive;
